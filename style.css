@@ -1,0 +1,481 @@
+body{
+     padding: 0;
+     margin: 0; 
+     
+}
+.card{
+     position: relative;  
+    
+    
+}
+.card-body{
+     position: absolute;  
+     top: 80%;
+      left:32%; 
+      
+     
+     
+    
+    
+}
+.leg-card {
+     position: relative;
+      width: 100%; 
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+     
+     
+
+}
+.shop-button{
+     position: absolute;
+     top: 50%;
+     left: 8%;
+     background-color: darkgreen;
+     
+     
+}
+.leg-card img{
+      width: 109%;
+      height: 70vh;
+      margin: 0%;
+      
+      
+     }
+
+/* cards2  */
+
+.slide-image{
+     width: 300px;
+     
+     position: relative;
+     margin: 0%;
+     padding: 0%;
+}
+.slide-body{
+     position: absolute;
+     
+     top: 5%;
+     background-color: darkgreen;
+     width: 100px;
+     height: 24px;
+     text-align: center;
+     color: white;
+     margin: 0;
+     
+     
+}
+.carousel-cards{
+     padding: 5px;
+     padding-top: 0px;
+     
+     display: grid;
+     place-items: center;
+      margin: auto;
+      
+     
+
+     
+     
+     
+
+}
+.slide-cards{
+     
+     display: flex;
+     gap: 20px;
+    
+}
+
+/* cards3 */
+
+
+.carousel-card2{
+     position: relative;
+     
+}
+
+.carousel-body{
+     position: absolute;
+     font-size: xx-large;
+     top: 75%;
+     left: 2%;
+     
+     
+
+
+}
+.shop2{
+     position: absolute;
+     top: 85%;
+     left: 2%;
+     background-color: darkgreen;
+     
+}
+.container-slider{
+     display: flex;
+     gap: 28px;
+     
+     
+}
+.carousel-slide img{
+  object-fit: cover;
+     
+     
+}
+         /*  */
+
+         /* cards4  */
+
+.card4 img{
+     height: 60vh;
+
+     
+}
+
+/* carousel images */
+.leg-card2 {
+     position: relative;
+     
+
+}
+.leg-card2 img{
+     height: 70vh;
+     width: 100%;
+
+     
+}
+.shop-button2{
+     position: absolute;
+     top: 85%;
+     left: 8%;
+     background-color: darkgreen;
+}
+     
+     /* cards5  */
+
+.slide-image-5{
+          width: 300px;
+          position: relative;
+     }
+     .slide-body5{
+          position: absolute;
+          top: 5%;
+          background-color: darkred;
+          width: 51px;
+          height: 22px;
+          
+          text-align: center;
+          
+          color: white;
+          
+     }
+     .carousel-cards5{
+          
+          display: flex;
+          place-items: center;
+          margin: auto;
+          
+          
+          
+     
+     }
+     .slide-cards5{
+          
+          display: flex;
+          gap: 20px;
+          
+     }
+
+       /* card6  */
+
+
+    .card66{
+     position: relative;
+     
+     
+     
+    }
+    .card-body6{
+     position: absolute;
+     top: 75%;
+     right: 35%;
+
+     
+    }
+    .card-body6 a{
+     width: 150px;
+    }
+
+    .card66 img{
+     width: 106%;
+     height: 67vh;
+     
+    }
+
+    /* cards7 */
+
+    
+
+    .carousel-card7{
+     display: grid;
+     place-items: center;
+     margin: auto;
+    }
+
+    .slide-cards7{
+     display: flex;
+     gap: 10px;
+    }
+
+    .carousel-card7 img{
+     width: 300px;
+    }
+
+    /* cards8 */
+     .container-slider8{
+       display: flex;  
+    } 
+
+    .carousel-card8{
+     position: relative;
+     width: 800px;
+     gap: 2px;
+    }
+
+     .carousel-body8{ 
+      position: absolute; 
+      top: 65%;
+     right: 47%;
+     
+
+    }
+
+    .shop8{
+     position: absolute;
+     top: 85%;
+     right: 82%;
+     background-color: darkgreen;
+     
+    }
+
+    .container-slide8{
+      display: flex;  
+     gap: 10px;
+    }
+    .carousel-card8 img{
+     width: 100%;
+     
+    }
+
+    /* footer  */
+   .row-1{
+     width: 85%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+   }
+   .col{
+
+     flex-basis: 25%;
+     padding: 20px;
+   }
+   .email-id{
+     border-bottom: solid 1px #ccc;
+   }
+
+
+   .icons{
+     word-spacing: 40px;
+     
+
+   }
+   
+     
+   .container-1{
+     text-align: center;
+   }
+
+   @media screen and (max-width:500px){
+     .card-body{
+           position: absolute;   
+           top: 70%;
+           left:20%;
+           width: 100%;
+           margin-left: 5px;
+           margin-right: 5px;
+     }
+
+     
+     }
+
+
+     @media  screen and (max-width:860px) {
+          .shop-button{
+               position: absolute;
+               top: 30%;
+               left: 8%;
+               background-color: darkgreen;
+          }
+
+          .leg-card img{
+               width: 110%;
+               height: 50vh;
+          }
+          
+     }
+
+     @media screen and (max-width:1000px){
+          .container-slider{
+               flex-direction: column;
+               
+          }
+          .container-slider img{
+               width: 100%;
+          }
+          .shop2{
+               position: absolute;
+               top: 70%;
+                left: 2%;
+               background-color: darkgreen;
+
+          }
+
+          .carousel-body{
+               position: absolute;
+               font-size: large;
+               top: 60%;
+               left: 2%;
+               
+          
+     }  
+
+     @media screen and ( max-width:1000px){
+          .shop-button2{
+               position: absolute;
+               top: 70%;
+               left: 8%;
+               background-color: darkgreen;
+               padding: 0%;
+          }
+
+          .leg-card2 img{
+               height: 50vh;
+           width: 100%;
+
+               
+          }
+     }
+
+     @media screen and (max-width:1000px){
+
+          .container-slide8{
+               flex-direction: column;
+               width: 100%;
+          }
+          
+     }
+
+     @media screen and (max-width:860px){
+
+          .slide-image{
+               width: 350px;
+               
+               position: relative;
+               margin: 0%;
+               padding: 0%;
+          }
+
+          .slide-cards{
+               flex-direction: column;
+     
+               
+              
+          }
+
+          
+          
+     }
+
+     @media screen and (max-width:860px) {
+
+          .slide-cards5{
+               flex-direction: column;
+          
+               display: flex;
+               gap: 20px;}
+
+               .slide-image-5{
+                    width: 115%;
+                    position: relative;
+               }
+
+               
+
+          }
+
+         @media screen and (max-width:1000px) {
+
+          .slide-cards7{
+               flex-direction: column;
+               display: flex;
+               gap: 10px;
+              }
+
+              .carousel-card7 img{
+               width: 110%;
+              }
+              .cardimage{
+               width: 30px;
+              }
+
+             
+         }
+
+         @media screen and (max-width:1000px){
+          .carousel-card8 img{
+               width: 48%;
+               
+              }
+
+              .carousel-body8{
+               position: absolute;
+               top: 45%;
+               right: 53%;
+               font-size: 2%;
+               
+          
+              }
+              .carousel-body8 h3{
+               font-size: medium;
+              }
+
+              .shop8{
+               position: absolute;
+               top: 75%;
+               right: 83%;
+               
+               background-color: darkgreen;
+               
+               
+              }
+
+
+          
+         }
+
+     
+    
+
+
+           
+          
+
+     
+   
+
+   
+     
+   
